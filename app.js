@@ -1,7 +1,7 @@
 const http = require('http');
 
 http.createServer(function (req, res){
-res.write("Beep boop! The system is down.");
+res.write("This is such a lazy message.");
 res.end();
 
 
