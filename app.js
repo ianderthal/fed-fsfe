@@ -1,7 +1,7 @@
 const http = require('http');
 
 http.createServer(function (req, res){
-res.write("This is such a lazy message.");
+res.write("Another such message");
 res.end();
 
 
